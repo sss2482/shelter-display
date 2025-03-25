@@ -1,30 +1,23 @@
 /* src/styles/MissingPersonForm.css */
 .missing-person-form {
-    padding: 30px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .missing-person-form h2 {
-    margin-bottom: 25px;
-  }
-  
-  .missing-person-form .form-control {
-    border-radius: 8px;
-    padding: 10px;
-    margin-bottom: 15px;
-  }
-  
-  .missing-person-form .btn {
-    background-color: #28a745;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 25px;
-  }
-  
-  @media (max-width: 576px) {
-    .missing-person-form {
-      padding: 20px;
-    }
-  }
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+.missing-person-form .card-header {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #1e90ff;
+}
+
+.missing-person-form .form-control {
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #708090;
+}
+
+.missing-person-form .btn {
+  background-color: #2ecc71;
+  color: white;
+  width: 100%;
+}
