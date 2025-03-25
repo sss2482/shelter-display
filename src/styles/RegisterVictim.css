@@ -1,0 +1,24 @@
+/* src/styles/RegisterVictim.css */
+.register-victim {
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-victim h2 {
+    margin-bottom: 25px;
+  }
+  
+  .register-victim .form-control {
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .register-victim .btn {
+    background-color: #28a745;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+  }

@@ -1,0 +1,32 @@
+/* src/styles/VolunteerDashboard.css */
+.volunteer-dashboard {
+    padding: 30px;
+  }
+  
+  .volunteer-dashboard h2 {
+    margin-bottom: 25px;
+  }
+  
+  .volunteer-dashboard .dashboard-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .volunteer-dashboard a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .volunteer-dashboard a:hover {
+    text-decoration: underline;
+  }
+  
+  .volunteer-dashboard .btn {
+    background-color: #dc3545;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    max-width: 200px;
+  }

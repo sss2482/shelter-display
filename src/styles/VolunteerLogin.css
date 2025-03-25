@@ -1,0 +1,25 @@
+/* src/styles/VolunteerLogin.css */
+.volunteer-login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .volunteer-login h2 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .volunteer-login .form-control {
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .volunteer-login .btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+  }

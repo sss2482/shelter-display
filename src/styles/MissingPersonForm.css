@@ -1,0 +1,30 @@
+/* src/styles/MissingPersonForm.css */
+.missing-person-form {
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .missing-person-form h2 {
+    margin-bottom: 25px;
+  }
+  
+  .missing-person-form .form-control {
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .missing-person-form .btn {
+    background-color: #28a745;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+  }
+  
+  @media (max-width: 576px) {
+    .missing-person-form {
+      padding: 20px;
+    }
+  }

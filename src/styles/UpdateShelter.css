@@ -1,0 +1,36 @@
+/* src/styles/UpdateShelter.css */
+.update-shelter {
+    padding: 30px;
+  }
+  
+  .update-shelter h2 {
+    margin-bottom: 25px;
+  }
+  
+  .update-shelter .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .update-shelter .form-control {
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .update-shelter select[multiple] {
+    height: 150px;
+  }
+  
+  .update-shelter .btn-primary {
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+  
+  .update-shelter .btn-success {
+    padding: 10px 20px;
+    border-radius: 25px;
+  }

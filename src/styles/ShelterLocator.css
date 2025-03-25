@@ -1,0 +1,26 @@
+/* src/styles/ShelterLocator.css */
+.shelter-locator {
+    padding: 20px;
+  }
+  
+  .shelter-locator h2 {
+    margin-bottom: 20px;
+  }
+  
+  .map-container {
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .filter-checkbox {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .map-container {
+      height: 400px;
+    }
+  }

@@ -1,0 +1,35 @@
+/* src/styles/Homepage.css */
+.homepage {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .homepage h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .homepage p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+  }
+  
+  .homepage .btn {
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 576px) {
+    .homepage h1 {
+      font-size: 2rem;
+    }
+    .homepage .btn {
+      display: block;
+      width: 80%;
+      margin: 10px auto;
+    }
+  }
